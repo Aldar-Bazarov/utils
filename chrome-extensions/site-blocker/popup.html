@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css">
+  <title>Site Blocker</title>
+</head>
+
+<body>
+  <h2 class="title">Блокировка сайтов</h2>
+
+  <input type="text" class="url-input" placeholder="Добавить URL" />
+  <button class="add-button">Добавить</button>
+
+  <h3 class="blocked-list-title">Заблокированные сайты:</h3>
+  <ul class="blocked-list"></ul>
+
+  <div class="toggle-block-wrapper">
+    <h3 class="toggle-block-title">Блокировка:</h3>
+    <input type="checkbox" class="toggle-block-btn" />
+  </div>
+  <button class="unblock-10-min">Разблокировать на 10 минут</button>
+
+  <script src="popup.js"></script>
+</body>
+
+</html>

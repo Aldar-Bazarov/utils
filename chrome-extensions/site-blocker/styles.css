@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    vertical-align: baseline;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    width: 350px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.url-input,
+.add-button,
+.toggle-block-btn,
+.unblock-10-min {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+}
+
+.url-input {
+    background-color: #ffffff;
+    color: #333;
+}
+
+.add-button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: 600;
+}
+
+.add-button:hover {
+    background-color: #45a049;
+}
+
+.toggle-block-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.toggle-block-title {
+    font-size: 20px;
+    line-height: 20px;
+    color: #333;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+.toggle-block-btn {
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0;
+    margin: 0 5px 0 0;
+}
+
+.unblock-10-min {
+    background-color: #f44336;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.unblock-10-min:hover {
+    background-color: #d32f2f;
+}
+
+.blocked-list {
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.blocked-list-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.blocked-list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 5px 5px 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-top: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.remove-list-item-title {
+    font-size: 18px;
+    line-height: 18px;
+    color: #333;
+}
+
+.remove-list-item-btn {
+    background-color: #ffcccb;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 15px;
+    line-height: 15px;
+    height: 30px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+}
+
+.remove-list-item-btn:hover {
+    background-color: #ff4444;
+    color: white;
+}
